@@ -46,6 +46,7 @@ const Slider = () => {
                   type="radio"
                   name="radio-button"
                   checked={byDateDesc.indexOf(paginationEvent) === index}
+                  readOnly
                 />
               ))}
             </div>
